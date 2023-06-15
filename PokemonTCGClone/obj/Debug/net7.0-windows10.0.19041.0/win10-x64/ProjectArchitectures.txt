@@ -1,0 +1,1 @@
+C:\Users\manng\Desktop\TCGClone\PokemonTCGClone\PokemonTCGClone.csproj;x64

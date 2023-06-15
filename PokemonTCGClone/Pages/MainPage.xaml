@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PokemonTCGClone.Pages.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+            <Label Text="Yer"/>
+            <CollectionView ItemsSource="{Binding P1Deck, Mode=TwoWay}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <HorizontalStackLayout Spacing="5">
+                            <Image Source="{Binding filePath, Mode=OneWay}"
+                                   HeightRequest="300"/>
+                            <Label Text="{Binding CName, Mode=TwoWay}" FontSize="20"/>
+                            <Label Text="{Binding HP, Mode=TwoWay}" FontSize="20"/>
+                        </HorizontalStackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

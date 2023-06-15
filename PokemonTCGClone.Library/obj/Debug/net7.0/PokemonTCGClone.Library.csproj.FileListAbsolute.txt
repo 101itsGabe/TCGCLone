@@ -1,0 +1,16 @@
+C:\Users\manng\Desktop\TCGClone\PokemonTCGClone.Library\bin\Debug\net7.0\PokemonTCGClone.Library.deps.json
+C:\Users\manng\Desktop\TCGClone\PokemonTCGClone.Library\bin\Debug\net7.0\PokemonTCGClone.Library.dll
+C:\Users\manng\Desktop\TCGClone\PokemonTCGClone.Library\bin\Debug\net7.0\PokemonTCGClone.Library.pdb
+C:\Users\manng\Desktop\TCGClone\PokemonTCGClone.Library\obj\Debug\net7.0\PokemonTCGClone.Library.csproj.AssemblyReference.cache
+C:\Users\manng\Desktop\TCGClone\PokemonTCGClone.Library\obj\Debug\net7.0\PokemonTCGClone.Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\manng\Desktop\TCGClone\PokemonTCGClone.Library\obj\Debug\net7.0\PokemonTCGClone.Library.AssemblyInfoInputs.cache
+C:\Users\manng\Desktop\TCGClone\PokemonTCGClone.Library\obj\Debug\net7.0\PokemonTCGClone.Library.AssemblyInfo.cs
+C:\Users\manng\Desktop\TCGClone\PokemonTCGClone.Library\obj\Debug\net7.0\PokemonTCGClone.Library.csproj.CoreCompileInputs.cache
+C:\Users\manng\Desktop\TCGClone\PokemonTCGClone.Library\obj\Debug\net7.0\PokemonTCGClone.Library.dll
+C:\Users\manng\Desktop\TCGClone\PokemonTCGClone.Library\obj\Debug\net7.0\refint\PokemonTCGClone.Library.dll
+C:\Users\manng\Desktop\TCGClone\PokemonTCGClone.Library\obj\Debug\net7.0\PokemonTCGClone.Library.pdb
+C:\Users\manng\Desktop\TCGClone\PokemonTCGClone.Library\obj\Debug\net7.0\ref\PokemonTCGClone.Library.dll
+C:\Users\manng\Desktop\TCGClone\PokemonTCGClone.Library\bin\Debug\net7.0\x86\leptonica-1.82.0.dll
+C:\Users\manng\Desktop\TCGClone\PokemonTCGClone.Library\bin\Debug\net7.0\x86\tesseract50.dll
+C:\Users\manng\Desktop\TCGClone\PokemonTCGClone.Library\bin\Debug\net7.0\x64\leptonica-1.82.0.dll
+C:\Users\manng\Desktop\TCGClone\PokemonTCGClone.Library\bin\Debug\net7.0\x64\tesseract50.dll
