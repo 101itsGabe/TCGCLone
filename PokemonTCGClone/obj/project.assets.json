@@ -111,7 +111,7 @@
           }
         }
       },
-      "HtmlAgilityPack/1.11.46": {
+      "HtmlAgilityPack/1.11.48": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/HtmlAgilityPack.dll": {
@@ -2753,7 +2753,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "CsvHelper": "30.0.1",
-          "HtmlAgilityPack": "1.11.46",
+          "HtmlAgilityPack": "1.11.48",
           "IronOcr": "2023.6.6",
           "MySql.Data": "8.0.33",
           "OpenCvSharp4": "4.7.0.20230115",
@@ -2880,7 +2880,7 @@
           }
         }
       },
-      "HtmlAgilityPack/1.11.46": {
+      "HtmlAgilityPack/1.11.48": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/HtmlAgilityPack.dll": {
@@ -5346,7 +5346,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "CsvHelper": "30.0.1",
-          "HtmlAgilityPack": "1.11.46",
+          "HtmlAgilityPack": "1.11.48",
           "IronOcr": "2023.6.6",
           "MySql.Data": "8.0.33",
           "OpenCvSharp4": "4.7.0.20230115",
@@ -5473,7 +5473,7 @@
           }
         }
       },
-      "HtmlAgilityPack/1.11.46": {
+      "HtmlAgilityPack/1.11.48": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/HtmlAgilityPack.dll": {
@@ -7939,7 +7939,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "CsvHelper": "30.0.1",
-          "HtmlAgilityPack": "1.11.46",
+          "HtmlAgilityPack": "1.11.48",
           "IronOcr": "2023.6.6",
           "MySql.Data": "8.0.33",
           "OpenCvSharp4": "4.7.0.20230115",
@@ -8066,7 +8066,7 @@
           }
         }
       },
-      "HtmlAgilityPack/1.11.46": {
+      "HtmlAgilityPack/1.11.48": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/HtmlAgilityPack.dll": {
@@ -10532,7 +10532,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "CsvHelper": "30.0.1",
-          "HtmlAgilityPack": "1.11.46",
+          "HtmlAgilityPack": "1.11.48",
           "IronOcr": "2023.6.6",
           "MySql.Data": "8.0.33",
           "OpenCvSharp4": "4.7.0.20230115",
@@ -10659,7 +10659,7 @@
           }
         }
       },
-      "HtmlAgilityPack/1.11.46": {
+      "HtmlAgilityPack/1.11.48": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/HtmlAgilityPack.dll": {
@@ -13125,7 +13125,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "CsvHelper": "30.0.1",
-          "HtmlAgilityPack": "1.11.46",
+          "HtmlAgilityPack": "1.11.48",
           "IronOcr": "2023.6.6",
           "MySql.Data": "8.0.33",
           "OpenCvSharp4": "4.7.0.20230115",
@@ -13252,7 +13252,7 @@
           }
         }
       },
-      "HtmlAgilityPack/1.11.46": {
+      "HtmlAgilityPack/1.11.48": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/HtmlAgilityPack.dll": {
@@ -15718,7 +15718,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "CsvHelper": "30.0.1",
-          "HtmlAgilityPack": "1.11.46",
+          "HtmlAgilityPack": "1.11.48",
           "IronOcr": "2023.6.6",
           "MySql.Data": "8.0.33",
           "OpenCvSharp4": "4.7.0.20230115",
@@ -15845,7 +15845,7 @@
           }
         }
       },
-      "HtmlAgilityPack/1.11.46": {
+      "HtmlAgilityPack/1.11.48": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/HtmlAgilityPack.dll": {
@@ -18311,7 +18311,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "CsvHelper": "30.0.1",
-          "HtmlAgilityPack": "1.11.46",
+          "HtmlAgilityPack": "1.11.48",
           "IronOcr": "2023.6.6",
           "MySql.Data": "8.0.33",
           "OpenCvSharp4": "4.7.0.20230115",
@@ -18438,7 +18438,7 @@
           }
         }
       },
-      "HtmlAgilityPack/1.11.46": {
+      "HtmlAgilityPack/1.11.48": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/HtmlAgilityPack.dll": {
@@ -20925,7 +20925,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "CsvHelper": "30.0.1",
-          "HtmlAgilityPack": "1.11.46",
+          "HtmlAgilityPack": "1.11.48",
           "IronOcr": "2023.6.6",
           "MySql.Data": "8.0.33",
           "OpenCvSharp4": "4.7.0.20230115",
@@ -21039,7 +21039,7 @@
           }
         }
       },
-      "HtmlAgilityPack/1.11.46": {
+      "HtmlAgilityPack/1.11.48": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/HtmlAgilityPack.dll": {
@@ -22073,7 +22073,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "CsvHelper": "30.0.1",
-          "HtmlAgilityPack": "1.11.46",
+          "HtmlAgilityPack": "1.11.48",
           "IronOcr": "2023.6.6",
           "MySql.Data": "8.0.33",
           "OpenCvSharp4": "4.7.0.20230115",
@@ -22187,7 +22187,7 @@
           }
         }
       },
-      "HtmlAgilityPack/1.11.46": {
+      "HtmlAgilityPack/1.11.48": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/HtmlAgilityPack.dll": {
@@ -23138,7 +23138,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "CsvHelper": "30.0.1",
-          "HtmlAgilityPack": "1.11.46",
+          "HtmlAgilityPack": "1.11.48",
           "IronOcr": "2023.6.6",
           "MySql.Data": "8.0.33",
           "OpenCvSharp4": "4.7.0.20230115",
@@ -23252,7 +23252,7 @@
           }
         }
       },
-      "HtmlAgilityPack/1.11.46": {
+      "HtmlAgilityPack/1.11.48": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/HtmlAgilityPack.dll": {
@@ -24203,7 +24203,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "CsvHelper": "30.0.1",
-          "HtmlAgilityPack": "1.11.46",
+          "HtmlAgilityPack": "1.11.48",
           "IronOcr": "2023.6.6",
           "MySql.Data": "8.0.33",
           "OpenCvSharp4": "4.7.0.20230115",
@@ -24317,7 +24317,7 @@
           }
         }
       },
-      "HtmlAgilityPack/1.11.46": {
+      "HtmlAgilityPack/1.11.48": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/HtmlAgilityPack.dll": {
@@ -25268,7 +25268,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "CsvHelper": "30.0.1",
-          "HtmlAgilityPack": "1.11.46",
+          "HtmlAgilityPack": "1.11.48",
           "IronOcr": "2023.6.6",
           "MySql.Data": "8.0.33",
           "OpenCvSharp4": "4.7.0.20230115",
@@ -25382,7 +25382,7 @@
           }
         }
       },
-      "HtmlAgilityPack/1.11.46": {
+      "HtmlAgilityPack/1.11.48": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/HtmlAgilityPack.dll": {
@@ -26333,7 +26333,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "CsvHelper": "30.0.1",
-          "HtmlAgilityPack": "1.11.46",
+          "HtmlAgilityPack": "1.11.48",
           "IronOcr": "2023.6.6",
           "MySql.Data": "8.0.33",
           "OpenCvSharp4": "4.7.0.20230115",
@@ -26447,7 +26447,7 @@
           }
         }
       },
-      "HtmlAgilityPack/1.11.46": {
+      "HtmlAgilityPack/1.11.48": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/HtmlAgilityPack.dll": {
@@ -27398,7 +27398,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "CsvHelper": "30.0.1",
-          "HtmlAgilityPack": "1.11.46",
+          "HtmlAgilityPack": "1.11.48",
           "IronOcr": "2023.6.6",
           "MySql.Data": "8.0.33",
           "OpenCvSharp4": "4.7.0.20230115",
@@ -27512,7 +27512,7 @@
           }
         }
       },
-      "HtmlAgilityPack/1.11.46": {
+      "HtmlAgilityPack/1.11.48": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/HtmlAgilityPack.dll": {
@@ -28463,7 +28463,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "CsvHelper": "30.0.1",
-          "HtmlAgilityPack": "1.11.46",
+          "HtmlAgilityPack": "1.11.48",
           "IronOcr": "2023.6.6",
           "MySql.Data": "8.0.33",
           "OpenCvSharp4": "4.7.0.20230115",
@@ -28577,7 +28577,7 @@
           }
         }
       },
-      "HtmlAgilityPack/1.11.46": {
+      "HtmlAgilityPack/1.11.48": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/HtmlAgilityPack.dll": {
@@ -29533,7 +29533,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "CsvHelper": "30.0.1",
-          "HtmlAgilityPack": "1.11.46",
+          "HtmlAgilityPack": "1.11.48",
           "IronOcr": "2023.6.6",
           "MySql.Data": "8.0.33",
           "OpenCvSharp4": "4.7.0.20230115",
@@ -29647,7 +29647,7 @@
           }
         }
       },
-      "HtmlAgilityPack/1.11.46": {
+      "HtmlAgilityPack/1.11.48": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/HtmlAgilityPack.dll": {
@@ -30681,7 +30681,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "CsvHelper": "30.0.1",
-          "HtmlAgilityPack": "1.11.46",
+          "HtmlAgilityPack": "1.11.48",
           "IronOcr": "2023.6.6",
           "MySql.Data": "8.0.33",
           "OpenCvSharp4": "4.7.0.20230115",
@@ -30795,7 +30795,7 @@
           }
         }
       },
-      "HtmlAgilityPack/1.11.46": {
+      "HtmlAgilityPack/1.11.48": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/HtmlAgilityPack.dll": {
@@ -31746,7 +31746,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "CsvHelper": "30.0.1",
-          "HtmlAgilityPack": "1.11.46",
+          "HtmlAgilityPack": "1.11.48",
           "IronOcr": "2023.6.6",
           "MySql.Data": "8.0.33",
           "OpenCvSharp4": "4.7.0.20230115",
@@ -31860,7 +31860,7 @@
           }
         }
       },
-      "HtmlAgilityPack/1.11.46": {
+      "HtmlAgilityPack/1.11.48": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/HtmlAgilityPack.dll": {
@@ -32811,7 +32811,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "CsvHelper": "30.0.1",
-          "HtmlAgilityPack": "1.11.46",
+          "HtmlAgilityPack": "1.11.48",
           "IronOcr": "2023.6.6",
           "MySql.Data": "8.0.33",
           "OpenCvSharp4": "4.7.0.20230115",
@@ -32925,7 +32925,7 @@
           }
         }
       },
-      "HtmlAgilityPack/1.11.46": {
+      "HtmlAgilityPack/1.11.48": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/HtmlAgilityPack.dll": {
@@ -33876,7 +33876,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "CsvHelper": "30.0.1",
-          "HtmlAgilityPack": "1.11.46",
+          "HtmlAgilityPack": "1.11.48",
           "IronOcr": "2023.6.6",
           "MySql.Data": "8.0.33",
           "OpenCvSharp4": "4.7.0.20230115",
@@ -33990,7 +33990,7 @@
           }
         }
       },
-      "HtmlAgilityPack/1.11.46": {
+      "HtmlAgilityPack/1.11.48": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/HtmlAgilityPack.dll": {
@@ -34941,7 +34941,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "CsvHelper": "30.0.1",
-          "HtmlAgilityPack": "1.11.46",
+          "HtmlAgilityPack": "1.11.48",
           "IronOcr": "2023.6.6",
           "MySql.Data": "8.0.33",
           "OpenCvSharp4": "4.7.0.20230115",
@@ -35055,7 +35055,7 @@
           }
         }
       },
-      "HtmlAgilityPack/1.11.46": {
+      "HtmlAgilityPack/1.11.48": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/HtmlAgilityPack.dll": {
@@ -36006,7 +36006,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "CsvHelper": "30.0.1",
-          "HtmlAgilityPack": "1.11.46",
+          "HtmlAgilityPack": "1.11.48",
           "IronOcr": "2023.6.6",
           "MySql.Data": "8.0.33",
           "OpenCvSharp4": "4.7.0.20230115",
@@ -36120,7 +36120,7 @@
           }
         }
       },
-      "HtmlAgilityPack/1.11.46": {
+      "HtmlAgilityPack/1.11.48": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/HtmlAgilityPack.dll": {
@@ -37071,7 +37071,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "CsvHelper": "30.0.1",
-          "HtmlAgilityPack": "1.11.46",
+          "HtmlAgilityPack": "1.11.48",
           "IronOcr": "2023.6.6",
           "MySql.Data": "8.0.33",
           "OpenCvSharp4": "4.7.0.20230115",
@@ -37185,7 +37185,7 @@
           }
         }
       },
-      "HtmlAgilityPack/1.11.46": {
+      "HtmlAgilityPack/1.11.48": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/HtmlAgilityPack.dll": {
@@ -38141,7 +38141,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "CsvHelper": "30.0.1",
-          "HtmlAgilityPack": "1.11.46",
+          "HtmlAgilityPack": "1.11.48",
           "IronOcr": "2023.6.6",
           "MySql.Data": "8.0.33",
           "OpenCvSharp4": "4.7.0.20230115",
@@ -38255,7 +38255,7 @@
           }
         }
       },
-      "HtmlAgilityPack/1.11.46": {
+      "HtmlAgilityPack/1.11.48": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/HtmlAgilityPack.dll": {
@@ -39427,7 +39427,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "CsvHelper": "30.0.1",
-          "HtmlAgilityPack": "1.11.46",
+          "HtmlAgilityPack": "1.11.48",
           "IronOcr": "2023.6.6",
           "MySql.Data": "8.0.33",
           "OpenCvSharp4": "4.7.0.20230115",
@@ -39541,7 +39541,7 @@
           }
         }
       },
-      "HtmlAgilityPack/1.11.46": {
+      "HtmlAgilityPack/1.11.48": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/HtmlAgilityPack.dll": {
@@ -40602,7 +40602,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "CsvHelper": "30.0.1",
-          "HtmlAgilityPack": "1.11.46",
+          "HtmlAgilityPack": "1.11.48",
           "IronOcr": "2023.6.6",
           "MySql.Data": "8.0.33",
           "OpenCvSharp4": "4.7.0.20230115",
@@ -40716,7 +40716,7 @@
           }
         }
       },
-      "HtmlAgilityPack/1.11.46": {
+      "HtmlAgilityPack/1.11.48": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/HtmlAgilityPack.dll": {
@@ -41777,7 +41777,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "CsvHelper": "30.0.1",
-          "HtmlAgilityPack": "1.11.46",
+          "HtmlAgilityPack": "1.11.48",
           "IronOcr": "2023.6.6",
           "MySql.Data": "8.0.33",
           "OpenCvSharp4": "4.7.0.20230115",
@@ -41891,7 +41891,7 @@
           }
         }
       },
-      "HtmlAgilityPack/1.11.46": {
+      "HtmlAgilityPack/1.11.48": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/HtmlAgilityPack.dll": {
@@ -42952,7 +42952,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "CsvHelper": "30.0.1",
-          "HtmlAgilityPack": "1.11.46",
+          "HtmlAgilityPack": "1.11.48",
           "IronOcr": "2023.6.6",
           "MySql.Data": "8.0.33",
           "OpenCvSharp4": "4.7.0.20230115",
@@ -43066,7 +43066,7 @@
           }
         }
       },
-      "HtmlAgilityPack/1.11.46": {
+      "HtmlAgilityPack/1.11.48": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/HtmlAgilityPack.dll": {
@@ -44127,7 +44127,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "CsvHelper": "30.0.1",
-          "HtmlAgilityPack": "1.11.46",
+          "HtmlAgilityPack": "1.11.48",
           "IronOcr": "2023.6.6",
           "MySql.Data": "8.0.33",
           "OpenCvSharp4": "4.7.0.20230115",
@@ -44241,7 +44241,7 @@
           }
         }
       },
-      "HtmlAgilityPack/1.11.46": {
+      "HtmlAgilityPack/1.11.48": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/HtmlAgilityPack.dll": {
@@ -45302,7 +45302,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "CsvHelper": "30.0.1",
-          "HtmlAgilityPack": "1.11.46",
+          "HtmlAgilityPack": "1.11.48",
           "IronOcr": "2023.6.6",
           "MySql.Data": "8.0.33",
           "OpenCvSharp4": "4.7.0.20230115",
@@ -45416,7 +45416,7 @@
           }
         }
       },
-      "HtmlAgilityPack/1.11.46": {
+      "HtmlAgilityPack/1.11.48": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/HtmlAgilityPack.dll": {
@@ -46477,7 +46477,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "CsvHelper": "30.0.1",
-          "HtmlAgilityPack": "1.11.46",
+          "HtmlAgilityPack": "1.11.48",
           "IronOcr": "2023.6.6",
           "MySql.Data": "8.0.33",
           "OpenCvSharp4": "4.7.0.20230115",
@@ -46591,7 +46591,7 @@
           }
         }
       },
-      "HtmlAgilityPack/1.11.46": {
+      "HtmlAgilityPack/1.11.48": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/HtmlAgilityPack.dll": {
@@ -47663,7 +47663,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "CsvHelper": "30.0.1",
-          "HtmlAgilityPack": "1.11.46",
+          "HtmlAgilityPack": "1.11.48",
           "IronOcr": "2023.6.6",
           "MySql.Data": "8.0.33",
           "OpenCvSharp4": "4.7.0.20230115",
@@ -47810,14 +47810,14 @@
         "lib/net6.0-android31.0/GoogleGson.xml"
       ]
     },
-    "HtmlAgilityPack/1.11.46": {
-      "sha512": "dLMn4EVfJBHWmWK4Uh0XGD76FPLHI0qr2Tm0s1m/xmgiHb1JUb9zB8AzO8HtrkBBlMN6JfCUBYddhqC0hZNR+g==",
+    "HtmlAgilityPack/1.11.48": {
+      "sha512": "BTYfqMoTtnlUz5hqJZ3qxh/SDWMtJAulcz2vIr2TRj5BhfdJZD1E1HSpNI9rvIQiYJzl2xoVtCNzCcANjzbScQ==",
       "type": "package",
-      "path": "htmlagilitypack/1.11.46",
+      "path": "htmlagilitypack/1.11.48",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "htmlagilitypack.1.11.46.nupkg.sha512",
+        "htmlagilitypack.1.11.48.nupkg.sha512",
         "htmlagilitypack.nuspec",
         "lib/Net35/HtmlAgilityPack.dll",
         "lib/Net35/HtmlAgilityPack.pdb",
@@ -52839,7 +52839,7 @@
   "projectFileDependencyGroups": {
     "net7.0-android33.0": [
       "CsvHelper >= 30.0.1",
-      "HtmlAgilityPack >= 1.11.46",
+      "HtmlAgilityPack >= 1.11.48",
       "IronOcr >= 2023.6.6",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
@@ -52868,7 +52868,7 @@
     ],
     "net7.0-ios16.1": [
       "CsvHelper >= 30.0.1",
-      "HtmlAgilityPack >= 1.11.46",
+      "HtmlAgilityPack >= 1.11.48",
       "IronOcr >= 2023.6.6",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
@@ -52886,7 +52886,7 @@
     ],
     "net7.0-maccatalyst16.1": [
       "CsvHelper >= 30.0.1",
-      "HtmlAgilityPack >= 1.11.46",
+      "HtmlAgilityPack >= 1.11.48",
       "IronOcr >= 2023.6.6",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
@@ -52904,7 +52904,7 @@
     ],
     "net7.0-windows10.0.19041": [
       "CsvHelper >= 30.0.1",
-      "HtmlAgilityPack >= 1.11.46",
+      "HtmlAgilityPack >= 1.11.48",
       "IronOcr >= 2023.6.6",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
@@ -53007,7 +53007,7 @@
           },
           "HtmlAgilityPack": {
             "target": "Package",
-            "version": "[1.11.46, )"
+            "version": "[1.11.48, )"
           },
           "IronOcr": {
             "target": "Package",
@@ -53161,7 +53161,7 @@
           },
           "HtmlAgilityPack": {
             "target": "Package",
-            "version": "[1.11.46, )"
+            "version": "[1.11.48, )"
           },
           "IronOcr": {
             "target": "Package",
@@ -53260,7 +53260,7 @@
           },
           "HtmlAgilityPack": {
             "target": "Package",
-            "version": "[1.11.46, )"
+            "version": "[1.11.48, )"
           },
           "IronOcr": {
             "target": "Package",
@@ -53360,7 +53360,7 @@
           },
           "HtmlAgilityPack": {
             "target": "Package",
-            "version": "[1.11.46, )"
+            "version": "[1.11.48, )"
           },
           "IronOcr": {
             "target": "Package",

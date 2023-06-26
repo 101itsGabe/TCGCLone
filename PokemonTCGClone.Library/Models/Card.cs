@@ -1,19 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using OpenCvSharp;
-using System.Drawing;
-using IronOcr;
+﻿using IronOcr;
 using IronSoftware.Drawing;
-using System.ComponentModel;
-using System.Runtime.CompilerServices;
-using Tesseract;
 using MySql.Data.MySqlClient;
-using System.Data;
-using MySqlX.XDevAPI.Relational;
-using System.Xml.Linq;
+using HtmlAgilityPack;
+using System.Net;
 
 namespace PokemonTCGClone.Library.Models
 {
@@ -29,6 +18,7 @@ namespace PokemonTCGClone.Library.Models
         public string Box3Shit { get; set; }
         public string filePath { get; set; }
         public bool hasAbilityBox1 { get; set; }
+        public string allBoxArea { get; set; }
 
         public bool ifinTable(string s)
         {
@@ -39,11 +29,14 @@ namespace PokemonTCGClone.Library.Models
                 MySqlConnection con = new MySqlConnection();
                 con.ConnectionString = connstring;
                 con.Open();
-                string sql = "select pc_name from cardsdb.allcards where pc_name = \"" + s + "\";";
+            //string sql = "select pc_name from cardsdb.allcards where pc_name = \"" + s + "\";";
+                string sql = "SELECT EXISTS(SELECT* from cardsdb.allcards WHERE imgPath=@value)";
+            Console.WriteLine("already inside nigga");
 
             using (var cmd = new MySqlCommand(sql, con))
             {
-
+                cmd.Parameters.AddWithValue("@value", s);
+                var result = cmd.ExecuteScalar();
                 if (Convert.ToInt32(cmd.ExecuteScalar()) != 0)
                     return true;
                 else
@@ -62,24 +55,50 @@ namespace PokemonTCGClone.Library.Models
                 MySqlConnection con = new MySqlConnection();
                 con.ConnectionString = connstring;
                 con.Open();
-                string sql = "INSERT INTO cardsdb.allcards(pc_name,pc_set,pc_hp,pc_hasability,pc_Box1Name,pc_Box1Text,pc_Box2Name,pc_Box2Text,pc_cardType) VALUES(@pc_name,@pc_set,@pc_hp,@pc_hasability,@pc_Box1Name,@pc_Box1Text,@pc_Box2Name,@pc_Box2Text,@pc_cardType)";
+                //string sql = "INSERT INTO cardsdb.allcards(pc_name,pc_set,pc_hp,pc_hasability,pc_Box1Name,pc_Box1Text,pc_Box2Name,pc_Box2Text,pc_cardType,imgPath,pc_allTextBox) VALUES(@pc_name,@pc_set,@pc_hp,@pc_hasability,@pc_Box1Name,@pc_Box1Text,@pc_Box2Name,@pc_Box2Text,@pc_cardType,@pc_imgPath,@pc_allTextBox)";
+                string sql = "INSERT INTO cardsdb.allcards(pc_name,pc_set,pc_hp,pc_cardType,imgPath,pc_allTextBox) VALUES(@pc_name,@pc_set,@pc_hp,@pc_cardType,@pc_imgPath,@pc_allTextBox)";
 
                 using (var cmd = new MySqlCommand(sql, con))
                 {
                     cmd.Parameters.AddWithValue("@pc_name", CName);
                     cmd.Parameters.AddWithValue("@pc_set", "Paldea");
                     cmd.Parameters.AddWithValue("@pc_hp", HP);
-                    cmd.Parameters.AddWithValue("@pc_hasability", hasAbilityBox1);
-                    cmd.Parameters.AddWithValue("@pc_Box1Name", Box1Name);
-                    cmd.Parameters.AddWithValue("@pc_Box1Text", Box1Text);
-                    cmd.Parameters.AddWithValue("@pc_Box2Name", Box2Name);
-                    cmd.Parameters.AddWithValue("@pc_Box2Text", Box2Text);
+                    //cmd.Parameters.AddWithValue("@pc_hasability", hasAbilityBox1);
+                    //cmd.Parameters.AddWithValue("@pc_Box1Name", Box1Name);
+                    //cmd.Parameters.AddWithValue("@pc_Box1Text", Box1Text);
+                    //cmd.Parameters.AddWithValue("@pc_Box2Name", Box2Name);
+                    //cmd.Parameters.AddWithValue("@pc_Box2Text", Box2Text);
                     cmd.Parameters.AddWithValue("@pc_cardType", cardType);
+                    cmd.Parameters.AddWithValue("@pc_imgPath", filePath);
+                    cmd.Parameters.AddWithValue("@pc_allTextBox", allBoxArea);
 
                     cmd.ExecuteNonQuery();
                 }
             }
-            catch (Exception ex) { Console.WriteLine(ex.ToString()); }
+            catch (Exception ex) { Console.WriteLine(ex.Message); }
+        }
+
+        public Card GetFromSql(string s)
+        {
+            string connstring;
+            connstring = "server=localhost;uid=root;" +
+                        "pwd=3872810Gabe$$;database=cardsdb";
+            MySqlConnection con = new MySqlConnection();
+            con.ConnectionString = connstring;
+            con.Open();
+            string sql = "SELECT * from cardsdb.allcards WHERE imgPath=@value";
+            using (var cmd = new MySqlCommand(sql, con))
+            {
+                cmd.Parameters.AddWithValue("@value", s);
+                MySqlDataReader reader = cmd.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    CName = reader.GetString("pc_name");
+                    HP = Int32.Parse(reader.GetString("pc_hp"));
+                }
+            }
+                return new Card();
         }
 
         public Card()
@@ -249,13 +268,28 @@ namespace PokemonTCGClone.Library.Models
                 }
             }
 
+            //WholeBox How Many attack box each card has
+            using(var ocrInput = new OcrInput())
+            {
+                CropRectangle ContentArea;
+                if (hasAbilityBox1)
+                {
+                    ContentArea = new CropRectangle(x: 51, y: 546, width: 642, height: 313);
+                    ocrInput.AddImage(filePath, ContentArea);
+                    ocrInput.ReplaceColor(System.Drawing.Color.Black, System.Drawing.Color.Black, -5);
+                    var ocrResult = ocr.Read(ocrInput);
+                    Box2Text = ocrResult.Text;
+                }
+            }
 
         }
         public Card(string s)
         {
             
             filePath = s;
-            var ocr = new IronTesseract();
+            if (!ifinTable(filePath))
+            {
+                var ocr = new IronTesseract();
             //Name
             using (var ocrInput = new OcrInput())
             {
@@ -266,8 +300,7 @@ namespace PokemonTCGClone.Library.Models
             }
 
 
-            if (!ifinTable(CName))
-            {
+            
 
                 //Card Type
                 using (var ocrInput = new OcrInput())
@@ -296,7 +329,7 @@ namespace PokemonTCGClone.Library.Models
                         HP = hp;
                     }
                 }
-
+                /*
                 //Ability Check
                 using (var ocrInput = new OcrInput())
                 {
@@ -309,6 +342,7 @@ namespace PokemonTCGClone.Library.Models
                         hasAbilityBox1 = false;
                 }
 
+                
                 //Box1 Text
                 using (var ocrInput = new OcrInput())
                 {
@@ -422,18 +456,34 @@ namespace PokemonTCGClone.Library.Models
                         Box2Text = ocrResult.Text;
                     }
                 }
+                */
+
+                //WholeBox How Many attack box each card has
+                using (var ocrInput = new OcrInput())
+                {
+                    CropRectangle ContentArea;
+                    ContentArea = new CropRectangle(x: 51, y: 546, width: 642, height: 313);
+                    ocrInput.AddImage(filePath, ContentArea);
+                    ocrInput.ReplaceColor(System.Drawing.Color.Black, System.Drawing.Color.Black, -5);
+                    var ocrResult = ocr.Read(ocrInput);
+                    allBoxArea = ocrResult.Text;
+                    
+                }
+
                 AddToMySql();
+            }
+            else
+            {
+                Card temp = GetFromSql(filePath);
             }
             
            
         }
-            
-            //End of Card
 
-        public void setFilepath(string s)
-        {
-            filePath = s;
-        }
-        
+        //End of Card
+
+       
+
+
     }
 }

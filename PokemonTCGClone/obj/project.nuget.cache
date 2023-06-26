@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7ZpJqEo+wAfEjUW2EoPGjkg2KE1hM/DAa6HMY90SBQ9DtCglLcp9b8PMmdk+A4ALa2lgrusc9AkXA39anxXM1A==",
+  "dgSpecHash": "dUQAhqYvvyOcOmhR+zdbi4j8Q/16QKluGI14tzGYRvNegMDwEqYkY5U713MAiXk3T9c9hb56Xoh1FwdJL21zsQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\manng\\Desktop\\TCGClone\\PokemonTCGClone\\PokemonTCGClone.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,7 @@
     "C:\\Users\\manng\\.nuget\\packages\\fsharp.core\\4.5.2\\fsharp.core.4.5.2.nupkg.sha512",
     "C:\\Users\\manng\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\manng\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
-    "C:\\Users\\manng\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512",
+    "C:\\Users\\manng\\.nuget\\packages\\htmlagilitypack\\1.11.48\\htmlagilitypack.1.11.48.nupkg.sha512",
     "C:\\Users\\manng\\.nuget\\packages\\ironocr\\2023.6.6\\ironocr.2023.6.6.nupkg.sha512",
     "C:\\Users\\manng\\.nuget\\packages\\ironsoftware.system.drawing\\2023.6.1\\ironsoftware.system.drawing.2023.6.1.nupkg.sha512",
     "C:\\Users\\manng\\.nuget\\packages\\k4os.compression.lz4\\1.3.5\\k4os.compression.lz4.1.3.5.nupkg.sha512",

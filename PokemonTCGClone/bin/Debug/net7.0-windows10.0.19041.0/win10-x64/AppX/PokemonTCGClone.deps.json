@@ -10,7 +10,7 @@
       "PokemonTCGClone/1.0": {
         "dependencies": {
           "CsvHelper": "30.0.1",
-          "HtmlAgilityPack": "1.11.46",
+          "HtmlAgilityPack": "1.11.48",
           "IronOcr": "2023.6.6",
           "Microsoft.Extensions.Configuration": "7.0.0",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
@@ -878,11 +878,11 @@
           }
         }
       },
-      "HtmlAgilityPack/1.11.46": {
+      "HtmlAgilityPack/1.11.48": {
         "runtime": {
           "lib/netstandard2.0/HtmlAgilityPack.dll": {
-            "assemblyVersion": "1.11.46.0",
-            "fileVersion": "1.11.46.0"
+            "assemblyVersion": "1.11.48.0",
+            "fileVersion": "1.11.48.0"
           }
         }
       },
@@ -1326,7 +1326,7 @@
       "ScrapySharp/3.0.0": {
         "dependencies": {
           "FSharp.Core": "4.5.2",
-          "HtmlAgilityPack": "1.11.46",
+          "HtmlAgilityPack": "1.11.48",
           "System.Runtime.Caching": "4.5.0-preview1-26216-02"
         },
         "runtime": {
@@ -1535,7 +1535,7 @@
       "PokemonTCGClone.Library/1.0.0": {
         "dependencies": {
           "CsvHelper": "30.0.1",
-          "HtmlAgilityPack": "1.11.46",
+          "HtmlAgilityPack": "1.11.48",
           "IronOcr": "2023.6.6",
           "MySql.Data": "8.0.33",
           "OpenCvSharp4": "4.7.0.20230115",
@@ -1609,12 +1609,12 @@
       "path": "google.protobuf/3.21.9",
       "hashPath": "google.protobuf.3.21.9.nupkg.sha512"
     },
-    "HtmlAgilityPack/1.11.46": {
+    "HtmlAgilityPack/1.11.48": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-dLMn4EVfJBHWmWK4Uh0XGD76FPLHI0qr2Tm0s1m/xmgiHb1JUb9zB8AzO8HtrkBBlMN6JfCUBYddhqC0hZNR+g==",
-      "path": "htmlagilitypack/1.11.46",
-      "hashPath": "htmlagilitypack.1.11.46.nupkg.sha512"
+      "sha512": "sha512-BTYfqMoTtnlUz5hqJZ3qxh/SDWMtJAulcz2vIr2TRj5BhfdJZD1E1HSpNI9rvIQiYJzl2xoVtCNzCcANjzbScQ==",
+      "path": "htmlagilitypack/1.11.48",
+      "hashPath": "htmlagilitypack.1.11.48.nupkg.sha512"
     },
     "IronOcr/2023.6.6": {
       "type": "package",

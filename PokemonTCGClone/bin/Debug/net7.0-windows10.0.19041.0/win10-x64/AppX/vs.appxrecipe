@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\manng\Desktop\TCGClone\PokemonTCGClone\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-06-15T20:49:30.193</Modified>
+      <Modified>2023-06-26T04:39:10.935</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\manng\Desktop\TCGClone\PokemonTCGClone\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-06-15T03:36:46.876</Modified>
+      <Modified>2023-06-26T04:16:45.670</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\manng\Desktop\TCGClone\PokemonTCGClone\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\PokemonTCGClone.runtimeconfig.json">
       <PackagePath>PokemonTCGClone.runtimeconfig.json</PackagePath>
-      <Modified>2023-06-15T03:35:08.709</Modified>
+      <Modified>2023-06-26T04:16:45.479</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\manng\Desktop\TCGClone\PokemonTCGClone\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\PokemonTCGClone.dll">
       <PackagePath>PokemonTCGClone.dll</PackagePath>
-      <Modified>2023-06-15T04:02:30.494</Modified>
+      <Modified>2023-06-26T04:26:40.493</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\manng\Desktop\TCGClone\PokemonTCGClone\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>PokemonTCGClone.exe</PackagePath>
-      <Modified>2023-06-15T04:02:30.511</Modified>
+      <Modified>2023-06-26T04:26:40.497</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\manng\.nuget\packages\tesseract\5.2.0\x86\leptonica-1.82.0.dll">
       <PackagePath>x86\leptonica-1.82.0.dll</PackagePath>
@@ -837,9 +837,9 @@
       <PackagePath>Google.Protobuf.dll</PackagePath>
       <Modified>2022-10-26T13:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manng\.nuget\packages\htmlagilitypack\1.11.46\lib\netstandard2.0\HtmlAgilityPack.dll">
+    <AppxPackagedFile Include="C:\Users\manng\.nuget\packages\htmlagilitypack\1.11.48\lib\netstandard2.0\HtmlAgilityPack.dll">
       <PackagePath>HtmlAgilityPack.dll</PackagePath>
-      <Modified>2022-09-14T13:23:02.000</Modified>
+      <Modified>2023-06-19T13:04:08.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\manng\.nuget\packages\ironocr\2023.6.6\lib\netstandard2.0\IronOcr.dll">
       <PackagePath>IronOcr.dll</PackagePath>
@@ -1191,11 +1191,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\manng\Desktop\TCGClone\PokemonTCGClone.Library\bin\Debug\net7.0\PokemonTCGClone.Library.dll">
       <PackagePath>PokemonTCGClone.Library.dll</PackagePath>
-      <Modified>2023-06-15T20:49:29.254</Modified>
+      <Modified>2023-06-26T04:39:08.838</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\manng\Desktop\TCGClone\PokemonTCGClone\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\PokemonTCGClone.deps.json">
       <PackagePath>PokemonTCGClone.deps.json</PackagePath>
-      <Modified>2023-06-15T20:49:30.041</Modified>
+      <Modified>2023-06-26T04:39:10.776</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.86\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

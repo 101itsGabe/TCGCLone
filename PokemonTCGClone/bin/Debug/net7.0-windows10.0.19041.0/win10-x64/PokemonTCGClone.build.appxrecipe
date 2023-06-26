@@ -628,7 +628,7 @@
     <AppxPackagedFile Include="C:\Users\manng\.nuget\packages\google.protobuf\3.21.9\lib\net5.0\Google.Protobuf.dll">
       <PackagePath>Google.Protobuf.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manng\.nuget\packages\htmlagilitypack\1.11.46\lib\netstandard2.0\HtmlAgilityPack.dll">
+    <AppxPackagedFile Include="C:\Users\manng\.nuget\packages\htmlagilitypack\1.11.48\lib\netstandard2.0\HtmlAgilityPack.dll">
       <PackagePath>HtmlAgilityPack.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\manng\.nuget\packages\ironocr\2023.6.6\lib\netstandard2.0\IronOcr.dll">

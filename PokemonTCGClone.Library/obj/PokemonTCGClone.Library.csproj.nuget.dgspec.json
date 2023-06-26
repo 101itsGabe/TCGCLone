@@ -51,7 +51,7 @@
             },
             "HtmlAgilityPack": {
               "target": "Package",
-              "version": "[1.11.46, )"
+              "version": "[1.11.48, )"
             },
             "IronOcr": {
               "target": "Package",
